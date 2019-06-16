@@ -1,6 +1,6 @@
 {
     "name": "performance-view",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "main": "./dist/output.js",
     "repository": "https://github.com/FoxDaxian/performanceView",
     "description": "纯js无依赖的检测网站性能工具",
