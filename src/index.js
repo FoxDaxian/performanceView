@@ -88,5 +88,6 @@ function mixinMainMethods(P) {
         perf.clearMarks(endMark);
         const { startTime, duration } = perf.getEntriesByName(measureName)[0];
         console.log(`%c ${markName}: %c开始时间: ${startTime} 执行了${duration}ms`, 'color:#3d7e9a', 'color: #6f42c1');
+        return `%c ${markName}: %c开始时间: ${startTime} 执行了${duration}ms`, 'color:#3d7e9a', 'color: #6f42c1';
     }
 }
