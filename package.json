@@ -2,8 +2,8 @@
     "name": "performanceView",
     "version": "1.0.0",
     "main": "./dist/output.js",
-    "repository": "your git repository",
-    "author": "fox",
+    "repository": "https://github.com/FoxDaxian/performanceView",
+    "author": "FoxDaxian",
     "license": "MIT",
     "scripts": {
         "dev": "cross-env DEBUG=console.* babel-node ./build/webpack.dev.js",
